@@ -1,20 +1,109 @@
 <!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-    <h1>Matthew Berkley<h1>
-        <img src="https://images.squarespace-cdn.com/content/v1/5eda90d5315ec7404ca593ad/1591466666529-2T372Y7AQDTKZYTVVPN9/ke17ZwdGBToddI8pDm48kItLx8AGBf33t0ryT_mXm0pZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzVyb2ObDK6Zblm-sNlasJd0TXIh0zDaeHqw969fSxOu6km3V19YcRldEqlYVG5DaI/IMG_0097.jpg?format=300w"/>
-        
-    <p> This is an old headshot <p/>
-    
-        
-        <ol>
-            <li><a href=""
+  <header>
+    <h1>Latitude</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Data Science Visualizations</h2>
+        <img id="bio-image" src="https://github.com/mberkley25/mberkley25.gitbub.io/blob/master/Fig1.png" alt="Your Name">
+      </section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
+    </section>
+
+
+    <section>
+        <h1>WeatherPy</h1>
+        <article>
+        <a target="_blank" href="assets/images/fig1.png">
+          <img src="assets/images/fig1.png" alt="City Lat vs. Max Temp">
+        </a>
+        <p><em>Lat vs. Max Temp</em></p>
+        </article>
+        <hr>
+        <article>
+        <a target="_blank" href="assets/images/humiditymap.png">
+        <img src="assets/images/humiditymap.png" alt="Humidity Map">
+        </a>
+        <p><em>Humidity Map</em></p>
+        </article>
+        <hr>
+        <article>
+          <a href="assets/images/temperaturemap.png">
+          <img target="_blank" src="assets/images/temperaturemap.png" alt="Tempurature Map">
+          </a>
+          <p><em>Temperature Map</em></p>
+        </article>
+        <hr>
+        <!-- an example using figure/ficaption -->
+        <figure>
+          <a target="_blank" href="assets/images/windmap.png">
+          <img src="assets/images/windmap.png" alt="Wind Map">
+          </a>
+          <figcaption><em>Wind Map</em></figcaption>
+        </figure>
+      </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
 </body>
+
+
+    <section>
+      <h1>WeatherPy</h1>
+      <article>
+      <a target="_blank" href="assets/images/fig1.png">
+        <img src="assets/images/fig1.png" alt="City Lat vs. Max Temp">
+      </a>
+      <p><em>Lat vs. Max Temp</em></p>
+      </article>
+      <hr>
+      <article>
+      <a target="_blank" href="assets/images/humiditymap.png">
+      <img src="assets/images/humiditymap.png" alt="Humidity Map">
+      </a>
+      <p><em>Humidity Map</em></p>
+      </article>
+      <hr>
+      <article>
+        <a href="assets/images/temperaturemap.png">
+        <img target="_blank" src="assets/images/temperaturemap.png" alt="Tempurature Map">
+        </a>
+        <p><em>Temperature Map</em></p>
+      </article>
+      <hr>
+      <!-- an example using figure/ficaption -->
+      <figure>
+        <a target="_blank" href="assets/images/windmap.png">
+        <img src="assets/images/windmap.png" alt="Wind Map">
+        </a>
+        <figcaption><em>Wind Map</em></figcaption>
+      </figure>
+    </section>
+ 
+  
+  
 
 </html>
